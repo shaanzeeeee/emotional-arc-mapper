@@ -2,6 +2,8 @@
 
 **Emotional Arc Mapper** is an end-to-end AI/ML application that visualizes the "emotional temperature" of films and TV shows. By leveraging state-of-the-art Natural Language Processing (NLP), the tool parses movie scripts or subtitles and maps the narrative journey into a time-series emotional valence chart.
 
+**Live Demo:** [https://emotional-arc-mapper.streamlit.app/](https://emotional-arc-mapper.streamlit.app/)
+
 ---
 
 ## 🚀 Key Features
