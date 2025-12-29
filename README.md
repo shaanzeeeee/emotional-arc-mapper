@@ -72,9 +72,9 @@ python -m streamlit run src/app.py
 
 ---
 
-## 💡 What I Learned (Portfolio Highlights)
+## 💡 What I Learned From This Project
 Building this project was a deep dive into how AI can "understand" storytelling. Here are the key technical takeaways:
-- **Taming Messy Data**: I learned how to clean and structure raw movie scripts—removing stage directions and character names—to get to the core of the dialogue.
+- **Taming Messy Data**: I learned how to clean and structure raw movie scripts by removing stage directions and character names to get to the core of the dialogue.
 - **Working with Transformers**: I integrated the `RoBERTa` model to move beyond simple word-counts and actually detect the nuanced "vibe" of a scene.
 - **Building for Users**: Instead of just running a script in a terminal, I built an interactive web interface so anyone can upload a file and see the emotional arc instantly.
 - **Data with a Story**: It wasn't just about the numbers; I focused on visualizing the data so that the "climax" or "turning point" of a movie actually shows up on the graph.
