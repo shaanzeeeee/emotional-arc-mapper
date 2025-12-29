@@ -23,6 +23,10 @@ st.sidebar.header("Settings")
 uploaded_file = st.sidebar.file_uploader("Upload Subtitle (.srt) or Script (.txt)", type=["srt", "txt"])
 
 if uploaded_file is not None:
+    # Ensure data directory exists
+    if not os.path.exists("data"):
+        os.makedirs("data")
+        
     # Save temp file
     temp_path = os.path.join("data", uploaded_file.name)
     with open(temp_path, "wb") as f:
