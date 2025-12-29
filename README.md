@@ -25,12 +25,12 @@
 ## 🏗️ Technical Architecture
 ```mermaid
 graph TD
-    A[Raw Script/Subtitle File] --> B[Script Parser (pysrt/Regex)]
-    B --> C[Text Normalization & Tokenization]
-    C --> D[Sentiment Engine (RoBERTa Transformer)]
-    D --> E[Time-Series Valence Mapping]
-    E --> F[Smoothing Filter (Rolling Average)]
-    F --> G[Interactive UI (Streamlit/Plotly)]
+    A["Raw Script/Subtitle File"] --> B["Script Parser (pysrt/Regex)"]
+    B --> C["Text Normalization & Tokenization"]
+    C --> D["Sentiment Engine (RoBERTa Transformer)"]
+    D --> E["Time-Series Valence Mapping"]
+    E --> F["Smoothing Filter (Rolling Average)"]
+    F --> G["Interactive UI (Streamlit/Plotly)"]
 ```
 
 ---
